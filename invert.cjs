@@ -1,8 +1,8 @@
 let revObj = (obj) => {
     let rev = {}
-    for (let i in obj){
-        const key = obj[i]
-        rev[key] = i;
+    for (let key in obj){
+        const keys = obj[key];
+        rev[keys] = key;
     }
     return rev;
 }

@@ -1,7 +1,7 @@
 let allKeys = (obj) => {
     const ans = [];
-    for (let i in obj){
-        ans.push(i);
+    for (let key in obj){
+        ans.push(key);
     }
     return ans;
 }

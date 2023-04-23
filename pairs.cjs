@@ -1,7 +1,7 @@
 let pairs = (obj) => {
     let ans = [];
-    for (let i in obj){
-        ans.push([i,obj[i]]);
+    for (let key in obj){
+        ans.push([key,obj[key]]);
     }
     return ans;
 }
